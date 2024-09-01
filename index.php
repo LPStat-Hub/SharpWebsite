@@ -39,14 +39,52 @@
                 Sharpening the Path to Accelerated AI Innovation<br>
             </h2>
             <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
-                Everything, from the simplest pencil to
-                the most complex human brain, requires sharpening to remain useful and relevant
-                over time. We proudly introduce SHARP MACHINE — the "prefrontal cortex" for AI
-                systems, providing AI models with self-corrective abilities and the cognitive
-                flexibility needed to be real-world-ready.
+                In today’s world, where yesterday’s models have ZERO market, what’s the real strategy for staying ahead in the AI race?
             </p>
+
+            <div class="row questions">
+                <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-left py-4 mt-5">
+                    <h4 class="text-green my-4 ">The only path: </h4>
+                    <ul class="list-unstyled text-white my-4 ">
+                        <li>Keep refining, pushing your model to be progressively sharper and more advanced.</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-left py-4 mt-5">
+                    <h4 class="text-green my-4" >But here’s the big question:</h4>
+                    <ul class="list-unstyled text-white my-4 ">
+                        <li> Is there a smarter, more innovative, and viable strategy to advance AI beyond just throwing more GPUs and money at it?</li>
+                    </ul>
+                </div>
+            </div>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Beyond Yesterday’s Models.  At SHARP MACHINE, INC., we’re building pioneering AI-technologies to solve this industry-wide fundamental challenge.
+            </p>
+            <!--<div class="row">
+                <form id="newsletter-form" action="send.php" method="POST" class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 myform" novalidate>
+                    <div class="input-group">
+                        <input id="newsletter-mail" name="email" placeholder="Enter your email" class="form-control  requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                        <span class="input-group-btn">
+                            <button name="submit" type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent">Get Started</button>
+                        </span>
+                    </div>
+                    <input type="hidden" name="submitted" id="submitted2" value="true">
+                </form>
+			</div>-->
+            <div class="" id="contact" >
+                <form>
+                    <div class="form-group">
+                        <div class="form-group col-md-8 form-display" >
+                            <input type="email" class="form-control email" id="Email" placeholder="Enter email address">
+                            <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3 get-started">Get Started</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
             <a href="/sharpdeck.html" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Learn More</a>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
+
+            <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>-->
         </div>
     </div>
     <!-- three-blcok -->
@@ -55,23 +93,38 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Get Started</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
             </div>
             <form id="contactForm">
             <div class="modal-body">
                 <div class="frm-status"></div>
-                <div class="mb-3">
+                <div class="mb-3 emailSection">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" name="email" placeholder="Enter email address" required>
                 </div>
             </div>
-        <div class="mb-3">
+        <div class="mb-3 capchatsSection">
             <!-- reCAPTCHA widget -->
             <div class="g-recaptcha" data-sitekey="6Lda9TEqAAAAAM2N1pmtFSCgBr-yZ-kQcM1WvC1e"></div>
         </div>
             <div class="modal-footer">
                 <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <form id="successForm">
+            <div class="modal-body">
+                <div class="frm-status"></div>
             </div>
             </form>
         </div>

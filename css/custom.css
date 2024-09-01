@@ -172,3 +172,41 @@ button {
         font-size: 3.6rem;
     }
 }
+
+.hero-paragraph {
+    margin-bottom: 32px;
+}
+
+ .hero-paragraph {
+     padding-left: 72px;
+     padding-right: 72px;
+ }
+
+ .hero-paragraph {
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+.questions {
+    height: 230px;
+    margin-top: -85px;
+}
+
+.text-green {
+    color: #00FFAD;
+}
+
+.form-display {
+    display: flex;
+}
+
+.email {
+    margin-left: -16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.get-started {
+    width: 25%;
+    margin-left: 20px;
+}
