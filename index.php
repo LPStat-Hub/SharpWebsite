@@ -27,7 +27,8 @@
                         <img src="img/ShortSM-transparent.png" alt="logo">
                     </div>
                     <div class="col-6 align-self-center text-right">
-                        <a href="mailto:deep@unitedstatalgo.com" class="text-white lead">deep@sharpmachine.ai</a>
+
+                        <a href="/sharpdeck.html" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Learn More</a>
                     </div>
                 </div>
             </header>
@@ -79,10 +80,10 @@
                         </div>
                     </div>
                 </form>
-
+            <p class="text-green emailme" >For more info, mail us <a href="mailto:deep@unitedstatalgo.com" class="text-white lead">deep@sharpmachine.ai</a></p>
             </div>
 
-            <a href="/sharpdeck.html" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Learn More</a>
+
 
             <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>-->
         </div>
