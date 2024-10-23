@@ -47,3 +47,15 @@ em {
   text-wrap: pretty;
   padding-left:50px !important;
 }
+
+@media only screen and (max-width: 600px) {
+.pic-top2 {
+    margin-top: 0;
+    display: inline;
+  }
+.row-margincustom {
+  margin-left: -20px;
+}
+
+
+}
