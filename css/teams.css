@@ -1,0 +1,49 @@
+body {
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+.border-5,
+.border-w-5 {
+  border-width: 5px !important;
+}
+
+.border-white {
+  border: 1px solid transparent;
+  border-color: #fff !important;
+}
+
+hr.hr-primary {
+  border-top-color: #CC164D !important;
+}
+
+em {
+  font-style: italic;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.py-7 {
+  color: white !important;
+  background-color: transparent;
+}
+
+.pic-top {
+  margin-top:65px;
+}
+
+.pic-top2 {
+  margin-top: 100px;
+}
+
+.pic-left {
+  margin-left: 50%;
+}
+
+.row-margincustom {
+  margin-left: -17%;
+  text-wrap: pretty;
+  padding-left:50px !important;
+}
